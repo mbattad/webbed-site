@@ -1,16 +1,46 @@
 ---
-
+import '../styles/home.css'
 ---
 
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/webp" href="/favicon.webp" />
+        <link rel="stylesheet" href="https://unpkg.com/xp.css"/>
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>mi☆miaow</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div id="root">
+			<div id="intro_page_window">
+				<div class="window">
+					<div class="title-bar">
+						<div class="title-bar-text">mi☆miaow</div>
+						<div class="title-bar-controls">
+							<button aria-label="Minimize"></button>
+							<button aria-label="Restore"></button>
+							<button aria-label="Close"></button>
+						</div>
+					</div>
+					<div class="window-body">
+						<p>thank you for coming :)</p>
+						<div style="margin:auto; justify-content: center; display:flex;">
+							<img src="/images/chiikawa_stamp.png"/>
+							<img src="/images/fairy_stamp.png"/>
+							<img src="/images/lolita_stamp.png"/>
+						</div>
+						<br>
+						<div class="field-row" style="justify-content: flex-end;">
+							<a href="/home/">
+								<button>Enter</button>
+							</a>
+							<button>Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

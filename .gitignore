@@ -1,3 +1,4 @@
 # Build artifacts
 bun.lock
 node_modules/
+.astro
