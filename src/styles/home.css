@@ -3,16 +3,6 @@ body {
     background-repeat: repeat;
 }
 
-#root {
-    height: 500px;
-}
-
-#intro_page_window {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
 /* Override the default title bar  colour */
 .title-bar {
     background: linear-gradient(
@@ -26,4 +16,53 @@ body {
         rgba(0, 61, 215, 1) 96%,
         rgba(0, 61, 215, 1) 100%
     );
+}
+
+#root {
+    height: 500px;
+}
+
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-repeat: repeat;
+}
+
+#intro_page_window {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#header {
+    background-image: url(/images/background_wings.webp);
+    background-repeat: repeat;
+    height: 98px
+}
+
+#content {
+    display: flex;
+    background-image: url(/images/background_hearts.webp);
+    background-repeat: repeat;
+    padding: 10px;
+}
+
+#sidebar {
+    width: 200px;
+    padding-right: 20px
+}
+
+#main {
+    background-color: pink;
+}
+
+#footer {
+    background-image: url(/images/background_wings.webp);
+    background-repeat: repeat;
+    height: 98px;
+}
+
+#socials-box {
+    padding: 10px;
 }
