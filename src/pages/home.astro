@@ -1,5 +1,6 @@
 ---
 import '../styles/home.css'
+import '../styles/variables.css'
 ---
 
 <html lang="en">
@@ -11,10 +12,10 @@ import '../styles/home.css'
     <body>
         <div id="container">
             <div id="header">
-                <h1>title text</h1>
+                <img src="/images/title.apng" alt="Mia's Room"/>
             </div>
             <div id="content">
-                <div id="sidebar">
+                <div id="sidebar-left">
                     <div class="window">
                         <div class="title-bar">
                             <div class="title-bar-text">welcome</div>
@@ -22,15 +23,34 @@ import '../styles/home.css'
                                 <button aria-label="Minimize"/>
                             </div>
                         </div>
-                        <div class="window-body">
+                        <div class="window-body sidebar-content">
+                            <img src="/images/pink_star_divider.webp"/>
                             <ul id="sidebar-tree" class="tree-view">
                                 <script src="../scripts/get_kaomoji.ts"/>
                             </ul>
+                            <img src="/images/pink_star_divider.webp"/>
+                            <p>nav placeholder</p>
                         </div>
                     </div>
                 </div>
                 <div id="main">
                     <p>main content</p>
+                </div>
+                <div id="sidebar-right">
+                    <div class="sidebar-content" style="gap: 10px">
+                        <img src="/images/angels.png"/>
+                        <div class="window">
+                            <div class="title-bar">
+                                <div class="title-bar-text">me</div>
+                                <div class="title-bar-controls">
+                                    <button aria-label="Minimize"/>
+                                </div>
+                            </div>
+                            <div class="window-body">
+                                <p>about placeholder</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="footer">

@@ -9,3 +9,5 @@ website that i use conventional commits on for some reason
 - [Bun](https://bun.com/)
 - readme decorations [[1](https://adriansblinkiecollection.neocities.org/)] [[2](https://www.tumblr.com/fairytopea/750555623239843840/dividers-by-fairytopea)]
 - [windows XP CSS](https://botoxparty.github.io/XP.css/#intro)
+- dividers [[1](https://www.tumblr.com/petalpxl/)]
+- [glitter text generator](https://dagrand39.neocities.org/MainPages/MoreHTML/sparkleon/)

@@ -38,23 +38,35 @@ body {
 #header {
     background-image: url(/images/background_wings.webp);
     background-repeat: repeat;
-    height: 98px
+    height: 98px;
+    font-style: italic;
 }
 
 #content {
     display: flex;
+    flex-direction: row;
     background-image: url(/images/background_hearts.webp);
     background-repeat: repeat;
+}
+
+#sidebar-left {
+    width: 200px;
     padding: 10px;
 }
 
-#sidebar {
+#sidebar-right {
     width: 200px;
-    padding-right: 20px
+    padding: 10px;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-direction: column;
 }
 
 #main {
     background-color: pink;
+    flex-grow: 1;
 }
 
 #footer {
