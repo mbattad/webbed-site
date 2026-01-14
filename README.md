@@ -11,3 +11,4 @@ website that i use conventional commits on for some reason
 - [windows XP CSS](https://botoxparty.github.io/XP.css/#intro)
 - dividers [[1](https://www.tumblr.com/petalpxl/)]
 - [glitter text generator](https://dagrand39.neocities.org/MainPages/MoreHTML/sparkleon/)
+- [custom blinkies generator](https://blinkies.cafe/) (templates by: [[1](https://transbro.neocities.org/)] [[2](https://pawpr1nc3.tumblr.com/)])
