@@ -1,0 +1,12 @@
+---
+import '../styles/navbutton.css'
+
+const { label, dest, icon } = Astro.props
+---
+
+<a href={dest}>
+    <div class="nav-button">
+        <img src={icon} class="nav-icon"/>
+        <p>{label}</p>
+    </div>
+</a>

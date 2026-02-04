@@ -1,5 +1,7 @@
 ---
 import '../styles/sidebar.css'
+
+import NavButton from './NavButton.astro'
 ---
 
 <div class="sidebar">
@@ -16,7 +18,11 @@ import '../styles/sidebar.css'
                 <script src="../scripts/get_kaomoji.ts"/>
             </ul>
             <img src="/images/pink_star_divider.webp"/>
-            <p>nav placeholder</p>
+            <div style="margin-top: 5px">
+                <NavButton label="home / about" icon="/images/icons/coffee.webp" dest="/home"/>
+                <NavButton label="my art" icon="/images/icons/book.webp"/>
+                <NavButton label="favourites" icon="/images/icons/stereo.webp"/>
+            </div>
         </div>
     </div>
 </div>
