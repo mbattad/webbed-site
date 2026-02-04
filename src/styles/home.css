@@ -35,13 +35,6 @@ body {
     justify-content: center;
 }
 
-#header {
-    background-image: url(/images/background_wings.webp);
-    background-repeat: repeat;
-    height: 98px;
-    font-style: italic;
-}
-
 #content {
     display: flex;
     flex-direction: row;
@@ -49,32 +42,8 @@ body {
     background-repeat: repeat;
 }
 
-#sidebar-left {
-    width: 200px;
-    padding: 10px;
-}
-
-#sidebar-right {
-    width: 200px;
-    padding: 10px;
-}
-
-.sidebar-content {
-    display: flex;
-    flex-direction: column;
-}
-
 #main {
     background-color: pink;
     flex-grow: 1;
-}
-
-#footer {
-    background-image: url(/images/background_wings.webp);
-    background-repeat: repeat;
-    height: 98px;
-}
-
-#socials-box {
-    padding: 10px;
+    overflow: auto;
 }

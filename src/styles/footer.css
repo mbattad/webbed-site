@@ -1,0 +1,9 @@
+#footer {
+    background-image: url(/images/background_wings.webp);
+    background-repeat: repeat;
+    height: 98px;
+}
+
+#socials-box {
+    padding: 10px;
+}
