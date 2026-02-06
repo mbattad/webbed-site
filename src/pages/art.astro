@@ -1,28 +1,5 @@
 ---
-import '../styles/home.css'
-
-import AboutSidebar from "../components/AboutSidebar.astro";
-import Footer from "../components/Footer.astro";
-import Header from "../components/Header.astro";
-import NavSidebar from "../components/NavSidebar.astro";
+import BasePage from '../components/BasePage.astro'
 ---
 
-<html lang="en">
-    <head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/webp" href="/favicon.webp" />
-        <link rel="stylesheet" href="https://unpkg.com/xp.css"/>
-    </head>
-    <body>
-        <div id="container">
-            <Header/>
-            <div id="content">
-                <NavSidebar/>
-                <div id="main"> 
-                </div>
-                <AboutSidebar/>
-            </div>
-            <Footer/>
-        </div>
-    </body>
-</html>
+<BasePage/>
