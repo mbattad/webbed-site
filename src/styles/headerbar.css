@@ -1,0 +1,16 @@
+@import url(../styles/shared.css);
+
+.header-bar {
+    background-image: url(/images/background_gingham.jpg);
+    background-repeat: repeat;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Star Crush';
+    font-size: 18px;
+    color: var(--header-brown);
+}
+
+.header-icon {
+    align-self: center;
+}

@@ -1,0 +1,8 @@
+:root {
+    --header-brown: #908269;
+}
+
+@font-face {
+    font-family: 'Star Crush';
+    src: url("/fonts/star-crush/Star Crush.ttf");
+}

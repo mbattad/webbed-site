@@ -1,0 +1,11 @@
+---
+import '../styles/headerbar.css'
+
+const { label } = Astro.props
+---
+
+<div class="header-bar">
+    <img src="/images/icons/wing_left.webp" class="header-icon" style="margin-right: 5px">
+    <p>{label}</p>
+    <img src="/images/icons/wing_right.webp" class="header-icon" style="margin-left: 5px"/>
+</div>

@@ -12,3 +12,4 @@ website that i use conventional commits on for some reason
 - dividers [[1](https://www.tumblr.com/petalpxl/)]
 - [glitter text generator](https://dagrand39.neocities.org/MainPages/MoreHTML/sparkleon/)
 - [custom blinkies generator](https://blinkies.cafe/) (templates by: [[1](https://transbro.neocities.org/)] [[2](https://pawpr1nc3.tumblr.com/)])
+- [Star Crush font](https://www.1001fonts.com/star-crush-font.html)

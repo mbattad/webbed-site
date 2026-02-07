@@ -18,6 +18,11 @@ body {
     );
 }
 
+.main-body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #root {
     height: 500px;
 }
@@ -46,4 +51,7 @@ body {
     background-color: pink;
     flex-grow: 1;
     overflow: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }

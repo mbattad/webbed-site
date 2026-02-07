@@ -3,5 +3,8 @@ bun.lock
 node_modules/
 .astro
 
+# Non-image assets
+public/fonts
+
 # macOS only
 /**/.DS_store
