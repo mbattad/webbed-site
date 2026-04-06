@@ -1,8 +1,30 @@
 ---
 import '../styles/footer.css'
+
+import statusJson from '../data/json/status.json'
 ---
 <div id="footer">
-    <div id="socials-box">
+    <div class="footer-box">
+        <div class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">status</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"/>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="field-row" id="status-listening">
+                    <img src="images/icons/windowsxp/audio_cd.png">
+                    <p>{statusJson.listening}</p>
+                </div>
+                <div class="field-row" id="status-reading">
+                    <img src="images/icons/windowsxp/address_book.png">
+                    <p>{statusJson.reading}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-box">
         <div class="window">
             <div class="title-bar">
                 <div class="title-bar-text">find me</div>
