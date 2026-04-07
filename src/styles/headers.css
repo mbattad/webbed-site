@@ -1,0 +1,29 @@
+.page-title, .header-bar, .subheader-bar {
+    display: flex;
+    justify-content: center;
+    font-family: 'Star Crush';
+    color: var(--header-brown)
+}
+
+.page-title {
+    background-image: url(/images/shootingstars.webp);
+    background-repeat: repeat;
+    border-radius: 100px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.header-bar {
+    background-image: url(/images/background_gingham.jpg);
+    background-repeat: repeat;
+    border-radius: 100px;
+    font-size: 18px;
+}
+
+.header-icon {
+    align-self: center;
+}
+
+.subheader-bar {
+    font-size: 16px;
+}
