@@ -1,5 +1,27 @@
 ---
+import '../styles/favourites.css'
+
 import BasePage from '../components/BasePage.astro'
+import HeaderBar from '../components/HeaderBar.astro'
+import PageTitle from '../components/PageTitle.astro'
 ---
 
-<BasePage/>
+<BasePage>
+    <PageTitle label="my favourites & inspirations"/>
+
+    <HeaderBar label="music"/>
+    <div class="tab-section">
+        <div class="tab-group">
+            <div class="active" id="all-button">all</div>
+            <div id="owned-button">my CDs</div>
+            <div id="wishlist-button">CD wishlist</div>
+            <script src="../scripts/populate_music.ts"/>
+        </div>
+        <div class="media-grid" id="music-grid"/>
+    </div>
+    <HeaderBar label="books"/>
+
+    <HeaderBar label="film & tv"/>
+
+    <HeaderBar label="games"/>
+</BasePage>

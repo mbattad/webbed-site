@@ -6,5 +6,8 @@ node_modules/
 # Non-image assets
 public/fonts
 
+# Images from favourites page
+public/images/favourites
+
 # macOS only
 /**/.DS_store

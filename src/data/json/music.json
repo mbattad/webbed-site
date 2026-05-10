@@ -1,0 +1,128 @@
+[
+    {
+        "title": "Puberty 2",
+        "artist": "Mitski",
+        "yearReleased": "2016",
+        "fileName": "puberty2.jpg",
+        "tags": ["owned"]
+    },
+    {
+        "title": "Lamp Gensou",
+        "artist": "Lamp",
+        "yearReleased": "2008",
+        "fileName": "lampgensou.jpg",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "RENAISSANCE",
+        "artist": "Beyoncé",
+        "yearReleased": "2022",
+        "fileName": "renaissance.png",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "Sigma",
+        "artist": "REOL",
+        "yearReleased": "2016",
+        "fileName": "sigma.png",
+        "tags": []
+    },
+    {
+        "title": "Shinshoku Dolce",
+        "artist": "Kanon Wakeshima",
+        "yearReleased": "2009",
+        "fileName": "shinshokudolce.png",
+        "tags": []
+    },
+    {
+        "title": "Shoujo Jikake no Libretto ~LOLITAWORK LIBRETTO~",
+        "artist": "Kanon Wakeshima",
+        "yearReleased": "2010",
+        "fileName": "lolitaworklibretto.png",
+        "tags": []
+    },
+    {
+        "title": "Bugland",
+        "artist": "No Joy",
+        "yearReleased": "2025",
+        "fileName": "bugland.jpg",
+        "tags": []
+    },
+    {
+        "title": "Lifetime",
+        "artist": "Erika de Casier",
+        "yearReleased": "2025",
+        "fileName": "lifetime.png",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "Windswept Adan",
+        "artist": "Ichiko Aoba",
+        "yearReleased": "2020",
+        "fileName": "windsweptadan.jpg",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "Three Cheers for Sweet Revenge",
+        "artist": "My Chemical Romance",
+        "yearReleased": "2004",
+        "fileName": "threecheers.jpg",
+        "tags": ["owned"]
+    },
+    {
+        "title": "Sekaiiro Universe",
+        "artist": "Mafumafu",
+        "yearReleased": "2024",
+        "fileName": "sekaiiro.jpg",
+        "tags": ["owned"]
+    },
+    {
+        "title": "Fancy That",
+        "artist": "Pinkpantheress",
+        "yearReleased": "2025",
+        "fileName": "fancythat.png",
+        "tags": []
+    },
+    {
+        "title": "Preacher's Daughter",
+        "artist": "Ethel Cain",
+        "yearReleased": "2022",
+        "fileName": "preachersdaughter.png",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "Born To Die",
+        "artist": "Lana Del Rey",
+        "yearReleased": "2011",
+        "fileName": "borntodie.png",
+        "tags": []
+    },
+    {
+        "title": "For Lovers",
+        "artist": "Lamp",
+        "yearReleased": "2008",
+        "fileName": "forlovers.jpg",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "MIGNONNE",
+        "artist": "Taeko Ohnuki",
+        "yearReleased": "1978",
+        "fileName": "mignonne.jpg",
+        "tags": []
+    },
+    {
+        "title": "20XX",
+        "artist": "Kami-sama, I have noticed",
+        "yearReleased": "2020",
+        "fileName": "20xx.jpg",
+        "tags": ["owned"]
+    },
+    {
+        "title": "Ashitairo World End",
+        "artist": "Mafumafu",
+        "yearReleased": "2017",
+        "fileName": "ashitairo.jpg",
+        "tags": ["owned"]
+    }
+]

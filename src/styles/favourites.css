@@ -1,0 +1,37 @@
+.tab-section {
+    margin: 10px;
+}
+
+.tab-group {
+    display: flex;
+    & div {
+        background-color: var(--pale-pink);
+        font-family: 'Star Crush';
+        font-size: 14px;
+        color: var(--header-brown);
+        padding: 5px;
+        border: 1px solid var(--header-brown);
+        border-bottom: none;
+        &:not(:first-child) {
+            border-left: none;
+        }
+        &:hover {
+            background-color: #ffc0cb;
+            cursor: pointer;
+        }
+        &.active {
+            background-color: var(--medium-pink)
+        }
+    }
+}
+
+.media-grid {
+    background-image: url(images/background_ribbons.jpg);
+    border: 1px solid var(--header-brown);
+    width: fit-content;
+    display: block;
+    padding: 10px;
+    & img {
+        max-height: 150px;
+    }
+}
