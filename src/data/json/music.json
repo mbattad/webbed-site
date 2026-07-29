@@ -109,7 +109,7 @@
         "artist": "Taeko Ohnuki",
         "yearReleased": "1978",
         "fileName": "mignonne.jpg",
-        "tags": []
+        "tags": ["wishlist"]
     },
     {
         "title": "20XX",
@@ -124,5 +124,19 @@
         "yearReleased": "2017",
         "fileName": "ashitairo.jpg",
         "tags": ["owned"]
+    },
+    {
+        "title": "Love. Angel. Music. Baby.",
+        "artist": "Gwen Stefani",
+        "yearReleased": "2004",
+        "fileName": "lamb.png",
+        "tags": ["wishlist"]
+    },
+    {
+        "title": "The Perfect Red Velvet",
+        "artist": "Red Velvet",
+        "yearReleased": "2017",
+        "fileName": "perfectrv.jpg",
+        "tags": ["wishlist"]
     }
 ]
