@@ -9,5 +9,8 @@ public/fonts
 # Images from favourites page
 public/images/favourites
 
+# Images I've saved that I'm not using yet…
+unused/
+
 # macOS only
 /**/.DS_store
