@@ -50,3 +50,13 @@ body {
     border-radius: 10px;
     height: fit-content;
 }
+
+#about-grid {
+    display: grid;
+    background-color: var(--header-brown);
+    grid-template-columns: 50% 50%;
+    padding: 1px;
+    & div {
+        background-color: var(--pale-pink);
+    }
+}
