@@ -1,0 +1,15 @@
+.art-grid {
+    & img {
+        border: solid 1px var(--header-brown);
+        max-width: 150px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    & dialog {
+        padding: 0;
+        border: none;
+    }
+}

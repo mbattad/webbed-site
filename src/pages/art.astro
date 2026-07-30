@@ -1,5 +1,15 @@
 ---
+import '../styles/art.css';
+
 import BasePage from '../components/BasePage.astro'
+import PageTitle from '../components/PageTitle.astro'
+import ArtGalleryEntry from '../components/ArtGalleryEntry.astro';
 ---
 
-<BasePage/>
+<BasePage>
+    <PageTitle label="my art"/>
+
+    <!-- TODO add filter widget -->
+
+    <div class="grid art-grid"/>
+</BasePage>

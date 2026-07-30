@@ -1,0 +1,13 @@
+---
+import '../styles/art.css'
+
+const { imageId, image, thumbnail, tags } = Astro.props
+---
+
+<img src={thumbnail} onclick={`window.${imageId}.showModal()`}>
+
+<dialog id={imageId} onclick={`window.${imageId}.close()`}>
+     <div onclick={`event?.stopPropagation()`}>
+        <img src={image}>
+     </div>
+</dialog>
