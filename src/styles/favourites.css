@@ -26,11 +26,6 @@
 }
 
 .media-grid {
-    background-image: url(images/background_ribbons.jpg);
-    border: 1px solid var(--header-brown);
-    width: fit-content;
-    display: block;
-    padding: 10px;
     & img {
         max-height: 150px;
     }
